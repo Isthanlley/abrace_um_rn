@@ -1,0 +1,72 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, Helvetica, sans-serif;  
+}
+
+body {
+    background-color: #ececec; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   }
+   
+header {
+    position: relative;
+    border-bottom: 5px solid#53b4bd;
+    height: 70px;
+}
+
+.logomarca {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+.logo {
+    width: 60px;
+}
+
+
+
+.text{
+    color: #f60069;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.texto{
+    color: #09c3e4;
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+a {
+    text-decoration: none;
+    color: #f60069
+}
+
+.menu{
+    display: flex;
+    color: rgb(82, 236, 241);
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    
+}
+.navBar {
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.navBar > a:hover{
+    color: rgb(82, 236, 241);
+}
+
+.home{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 600px;
+}
+
